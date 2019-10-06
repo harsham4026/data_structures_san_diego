@@ -1,6 +1,9 @@
+#python3
+
+
 #define function
 
-def sum(x, syecond_digit):
+def sum(x, y):
     return x + y
 
 if __name__ == '__main__':
