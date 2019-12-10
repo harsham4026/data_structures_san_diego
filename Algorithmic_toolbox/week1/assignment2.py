@@ -14,6 +14,7 @@ def get_max_n_numbers(input_array):
         elif(x>second_largest_num & x<=largest_num):
             second_largest_num = x
 
+
     return sorted_array[array_length-1]*sorted_array[array_length-2]
 
     #
@@ -30,5 +31,4 @@ def get_max_n_numbers(input_array):
 if __name__=='__main__':
     input_n = int(input())
     input =[int(x) for x in input().split()]
-    print(input)
     print(get_max_n_numbers(input))
